@@ -1,0 +1,44 @@
+.kaka{
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.blocks{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.blocks[block-color='1'],
+.blocks[block-color='2'],
+.blocks[block-color='3']{
+  color: rgb(123, 123, 211);
+}
+.blocks[block-color='4'],
+.blocks[block-color='5'],
+.blocks[block-color='6']{
+    color: rgb(234, 234, 99);
+}
+.blocks[block-color='7'],
+.blocks[block-color='8'],
+.blocks[block-color='9']{
+    color: rgb(175, 93, 93);
+}
+.vas{
+    border: 2px solid;
+    width: 150px;
+    background-color: blue;
+}
+.title{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
